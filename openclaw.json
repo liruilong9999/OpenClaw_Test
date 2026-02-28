@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.26",
+    "lastTouchedAt": "2026-02-28T07:21:02.376Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-28T01:20:38.461Z",
+    "lastRunVersion": "2026.2.26",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "custom-www-hashsight-cn": {
+        "baseUrl": "https://www.hashsight.cn/v1",
+        "apiKey": "sk-N2Hw4xx8tpAsGmzcQtnrlD95L0NEvCt5cldeSHfHalx6oy5T",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "GLM-5",
+            "name": "GLM-5",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0.5,
+              "output": 2,
+              "cacheRead": 0.1,
+              "cacheWrite": 0.2
+            }
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "custom-www-hashsight-cn/glm-5"
+      },
+      "models": {
+        "custom-www-hashsight-cn/glm-5": {}
+      },
+      "workspace": "C:\\Users\\lrl\\.openclaw\\workspace",
+      "memorySearch": {
+        "enabled": false
+      },
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    }
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "session": {
+    "dmScope": "per-channel-peer"
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "auth": {
+      "mode": "token",
+      "token": "fdcfa43daeb3e5fce119c6817f2fa812ef9c05dc77e6679d"
+    },
+    "tailscale": {
+      "mode": "off",
+      "resetOnExit": false
+    },
+    "nodes": {
+      "denyCommands": [
+        "camera.snap",
+        "camera.clip",
+        "screen.record",
+        "calendar.add",
+        "contacts.add",
+        "reminders.add"
+      ]
+    }
+  }
+}
