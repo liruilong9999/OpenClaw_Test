@@ -1,18 +1,16 @@
-# About Me
+# 关于我
 
-## Basic Information
-- Name: liruilong9999  
-- Profession: C++/Qt Development Engineer  
-- Location: China  
+## 基本信息
+- 名字：liruilong9999
+- 职业：C++/QT软件工程师
+- 所在地：北京
 
-## Work
-- Current Project: None  
-- Commonly Used Tools: Visual Studio 2017, Visual Studio 2022, Qt Creator  
-- Working Hours: Flexible / Self-scheduled  
+## 工作
+- 当前项目：无
+- 常用工具：Visual Studio 2017,Visual Studio 2022,QtCreator
+- 工作时间：自由安排
 
-## Preferences
-- Communication Style: Direct and efficient  
-- Language: Primarily Chinese, with English retained for professional/technical terms  
-
-## Current Focus
-- None at the moment
+## 偏好
+- 沟通风格：喜欢简洁
+- 语言：中文为主，专业词语英文
+- 提醒方式：重要的事直接说，不重要的攒一起说
